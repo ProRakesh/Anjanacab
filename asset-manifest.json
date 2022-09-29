@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Anjanacab/static/css/main.b019f678.css",
-    "main.js": "/Anjanacab/static/js/main.821b47d2.js",
+    "main.css": "/Anjanacab/static/css/main.c748d59b.css",
+    "main.js": "/Anjanacab/static/js/main.32d04348.js",
     "static/js/787.71e672d5.chunk.js": "/Anjanacab/static/js/787.71e672d5.chunk.js",
     "static/media/meh1.jpg": "/Anjanacab/static/media/meh1.1fd617f8231d37ee4095.jpg",
     "static/media/devi.jpg": "/Anjanacab/static/media/devi.224ff93e27de7cd1d512.jpg",
@@ -28,12 +28,12 @@
     "static/media/services.jpg": "/Anjanacab/static/media/services.df3578647d8d547ce9c0.jpg",
     "static/media/ub.jpg": "/Anjanacab/static/media/ub.df3578647d8d547ce9c0.jpg",
     "index.html": "/Anjanacab/index.html",
-    "main.b019f678.css.map": "/Anjanacab/static/css/main.b019f678.css.map",
-    "main.821b47d2.js.map": "/Anjanacab/static/js/main.821b47d2.js.map",
+    "main.c748d59b.css.map": "/Anjanacab/static/css/main.c748d59b.css.map",
+    "main.32d04348.js.map": "/Anjanacab/static/js/main.32d04348.js.map",
     "787.71e672d5.chunk.js.map": "/Anjanacab/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b019f678.css",
-    "static/js/main.821b47d2.js"
+    "static/css/main.c748d59b.css",
+    "static/js/main.32d04348.js"
   ]
 }
