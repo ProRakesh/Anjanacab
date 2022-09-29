@@ -1,0 +1,149 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contacttitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.contacttitle>span:nth-child(1){
+font-size: 3rem;
+font-weight: bold;
+color: orange
+}
+.contacttitle>span:nth-child(2){
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+    }
+
+    .formcontact >form{
+        display: flex;
+        gap: 2rem;
+        margin: 1rem 12rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .formcontact>form >input[type=text]{
+        background-color: aliceblue;
+        width: 50vw;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        
+
+    }
+
+ .formcontact>form >input[type=email]{
+        background-color: aliceblue;
+        width: 50vw;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        
+
+    }
+
+    .formcontact>form >input[type=textarea]{
+        
+        background-color: aliceblue;
+        width: 50vw;
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+.cobtn{
+    background-color: orange;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+.cobtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+@media screen and (max-width:1300px) {
+    .contacttitle>span:nth-child(1){
+        font-size:2.5rem;
+       
+        }
+        .contacttitle>span:nth-child(2){
+            font-size:1.5rem;
+           
+            }
+}
+
+@media screen and (max-width:1050px) {
+    .contacttitle>span:nth-child(1){
+        font-size:2.5rem;
+       
+        }
+        .contacttitle>span:nth-child(2){
+            font-size:1rem;
+           
+            }
+            .formcontact >form{
+               
+                margin: 1rem 1rem;
+             
+            }
+}
+
+@media screen and (max-width:712px) {
+    .contacttitle>span:nth-child(1){
+        font-size:2.5rem;
+       
+        }
+        .contacttitle>span:nth-child(2){
+display: none;           
+            }
+
+            .cobtn{
+              
+                padding: 0.5rem;
+               
+            }
+            .formcontact>form >input[type=textarea]{
+        
+                background-color: aliceblue;
+                width: 50vw;
+                font-size: 1.2rem;
+                padding: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+        
+            }
+            .formcontact>form >input[type=text]{
+                background-color: aliceblue;
+                width: 50vw;
+                padding: 1rem;
+                font-size: 1.2rem;
+                
+        
+            }
+        
+         .formcontact>form >input[type=email]{
+                background-color: aliceblue;
+                width: 50vw;
+                padding: 1rem;
+                font-size: 1.2rem;
+                
+        
+            }
+           
+}

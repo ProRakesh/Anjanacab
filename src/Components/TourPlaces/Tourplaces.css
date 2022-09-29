@@ -1,0 +1,74 @@
+.tourM{
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url('../img/tour.jpg');
+    height: 60vh;
+background-size: 100% 100%;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+}
+
+
+.tourM>span:nth-child(1){
+    font-size: 4rem;
+    font-weight: bold;
+}
+.tourM>span:nth-child(2){
+    font-size: 3rem;
+}
+
+.tourdet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.tourjodh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tourdet>span:nth-child(1){
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.tagtitle{
+    font-size: 3rem;
+    color: orange;
+
+}
+
+.images 
+{
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.images>img:nth-child(1){
+    width: 30vw;
+    height: 32vh;
+}
+.images>img:nth-child(2){
+    width: 30vw;
+    height:32vh;
+}
+.images>p{
+margin: 0 21rem;
+text-align: justify;
+font-size: 1.2rem;
+font-weight: 
+500;
+}

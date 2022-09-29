@@ -1,0 +1,179 @@
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    height: auto;
+    
+    
+}
+
+ .foot{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+ 
+}
+
+.ftitle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ftitle>span:nth-child(1){
+   
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+
+   
+
+
+}
+.ftitle>span:nth-child(2){
+ display: contents;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+    font-size: 1.3rem;
+
+
+
+
+}  
+.foot >p { display: flex;
+flex-wrap: wrap;
+margin: 0 12rem 0 0;
+}
+
+.footlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+ 
+;
+flex-direction: column;
+}
+ .footlink>span{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: orange;
+    display: flex;
+}
+
+.footlink>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+list-style: none;
+justify-content: center;
+align-items: center;
+
+}
+.footlink>ul>li>a{
+    display: flex;
+    text-decoration: none;
+   color: white;
+   font-size: 1.2rem;
+
+}
+.footlink>ul>li>a:hover{
+    color: orange;
+}
+ 
+
+
+
+.adres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 1rem;
+   margin-top: 2rem;
+}
+.adres>span:nth-child(1){
+    font-size: 2.3rem;
+    color: orange;
+    font-weight: bold;
+}
+.adres>span:nth-child(2){
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.adres>span:nth-child(3){
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.adres>span:nth-child(4){
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   gap: 0.5rem;
+   
+}
+.social{
+    display: flex;
+    gap: 2rem;
+    font-size:1.5rem;
+    
+   
+}
+.social >span>*{
+   color: white;
+border: 2px solid orange;  
+border-radius: 50%;
+display: flex;
+padding: 1rem;  
+   
+}
+
+.copyright{
+background-color: black;
+color: white;
+font-size: 1.2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.copyright>span:nth-child(1){
+    color: orange;
+}
+
+
+@media screen and (max-width:616px) {
+    .ftitle{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .ftitle>span:nth-child(2){
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}

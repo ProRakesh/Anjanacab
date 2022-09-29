@@ -1,0 +1,108 @@
+
+.bookheader{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/booknow.jpg');
+    width: 100%;
+    background-size:cover;
+    height: 60vh;
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookheader>span:nth-child(1){
+font-size: 4rem;
+font-weight: bold;
+}
+.bookheader>span:nth-child(2){
+    font-size: 3.5rem;
+    font-weight: bold;
+
+
+    }
+
+    .book_title{
+        padding: 0rem;
+    }
+
+    .bookheader>span:nth-child(3){
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+    
+    
+        }
+    
+
+        .footon{
+            margin-top: 2rem;
+        }
+        @media only screen and (max-width:990px) {
+   
+           
+           .bookheader{
+            height: 40vh;
+           }
+            .bookheader>span:nth-child(1) {
+             
+                font-size: 2.5rem;
+               
+            }
+            .bookheader>span:nth-child(2) {
+             
+                font-size: 2.5rem;
+               
+            }
+            .bookheader>span:nth-child(3) {
+             
+                font-size: 1rem;
+               
+            }
+           
+        
+        
+        
+        
+        }
+
+        @media only  screen and (max-width:550px) {
+           
+           .bookheader{
+            height:30vh
+           }
+            .bookheader>span:nth-child(1) {
+             
+                font-size: 2rem;
+               
+            }
+            .bookheader>span:nth-child(2) {
+             
+                font-size: 2rem;
+               
+            }
+            .bookheader>span:nth-child(3) {
+             
+display: none;               
+            }
+        }
+
+        @media only  screen and (max-width:320px) {
+          
+          .bookheader{
+            gap: 1rem;
+            height: 20vh;
+          }
+            .bookheader>span:nth-child(1) {
+             
+                font-size: 1.5rem;
+               
+            }
+            .bookheader>span:nth-child(2) {
+             
+                font-size: 1rem;
+               
+            }
+
+        }

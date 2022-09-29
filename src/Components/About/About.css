@@ -1,0 +1,176 @@
+.aboutheader{
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url('../img/about.jpg');
+    height: 70vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutheader>span:nth-child(1){
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.aboutheader>span:nth-child(2){
+    font-size:3rem;
+    text-transform: uppercase;
+    
+}
+
+.aboutdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.aboutdetail>span:nth-child(1){
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:orange;
+}
+.aboutdetail>p{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;    margin: 0 20rem;
+
+    
+}
+.button{
+    background-color: orange;
+font-size: 1.2rem;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.8rem;
+border-radius: 1rem;
+cursor: pointer;
+}
+.button>*{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+
+
+}
+.button:hover{
+    background-color: rgb(206, 209, 6);
+}
+
+
+
+@media  screen and (max-width:1400px) {
+    .aboutdetail>p{
+        margin: 0 3rem;
+    }
+}
+
+
+
+@media  screen and (max-width:1100px) {
+   
+    .aboutheader{
+        height: 50vh;
+    }
+
+.aboutheader>span:nth-child(1){
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.aboutheader>span:nth-child(2){
+    font-size:2rem;
+    text-transform: uppercase;
+    
+}
+}
+
+@media  screen and (max-width:700px) {
+   
+    .aboutheader{
+        height: 30vh;
+    }
+
+.aboutheader>span:nth-child(1){
+    font-size: 2rem;
+  
+}
+.aboutheader>span:nth-child(2){
+    font-size:1.2rem;
+   
+}
+.aboutdetail>span:nth-child(1){
+    font-size:3rem;
+    
+}
+}
+@media  screen and (max-width:430px) {
+   
+    .aboutheader{
+        height: 30vh;
+        gap: 1rem;
+    }
+
+.aboutheader>span:nth-child(1){
+    font-size:1.5rem;
+   
+}
+.aboutheader>span:nth-child(2){
+    font-size:1rem;
+   
+    
+}
+.aboutdetail>span:nth-child(1){
+    font-size:2rem;
+    
+}
+}
+
+@media  screen and (max-width:360px) {
+   
+    .aboutheader{
+        height: 30vh;
+        gap: 1rem;
+    }
+
+.aboutheader>span:nth-child(1){
+    font-size:1rem;
+   
+}
+.aboutheader>span:nth-child(2){
+    font-size:0.8rem;
+    
+}
+.aboutdetail>p{
+    margin: 0 ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+}
+
+@media  screen and (max-width:280px) {
+   
+    .aboutheader{
+        height: 20vh;
+        gap: 1rem;
+    }
+
+.aboutheader>span:nth-child(1){
+    font-size:1rem;
+   
+}
+.aboutheader>span:nth-child(2){
+   display: none;
+    
+}
+}

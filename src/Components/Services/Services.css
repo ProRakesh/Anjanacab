@@ -1,0 +1,132 @@
+.services{
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url('../img/services.jpg');
+height: 60vh;
+background-size: cover;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;}
+
+.services>span:nth-child(1){
+    font-size: 4rem;
+    font-weight: bold;
+}
+.services>span:nth-child(2){
+    font-size: 3rem;
+}
+.srdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.srdetail>span{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.srdetail > p{
+    margin: 0 25rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+   text-align: justify;
+    align-items: center;
+}
+
+.sermore{
+    margin-top: 5rem;
+    margin: 2rem 25rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+.sermore>span{
+    font-size: 3rem;
+}
+
+.sermore > ol{
+    font-size: 1.8rem;
+}
+.srbtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.back{
+    margin-bottom: 5rem;
+}
+
+
+@media screen and (max-width:1400px) {
+    .srdetail>p{
+      margin:1rem 5rem ;
+    }
+
+    .sermore{
+        margin: 0 12rem;
+    }
+}
+@media screen and (max-width:920px) {
+    .srdetail>p{
+      margin:1rem 4rem ;
+    }
+    .services{
+        height: 50vh;
+    }
+    .services>span:nth-child(1){
+        font-size: 3rem;
+       
+    }
+    .services>span:nth-child(2){
+        font-size:2rem;
+    }
+    .sermore>span{
+        font-size: 2rem;
+    }
+    
+    .sermore > ol{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:720px) {
+    
+    .sermore{
+        margin: 0 5rem;
+    }
+    .sermore>span{
+        font-size: 1.5rem;
+    }
+    
+    .sermore > ol{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:570px) {
+    .srdetail>p{
+      margin:1rem 2rem ;
+    }
+    .services{
+        height: 40vh;
+    }
+    .services>span:nth-child(1){
+        font-size: 2.2rem;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .services>span:nth-child(2){
+        font-size:1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

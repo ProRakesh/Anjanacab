@@ -1,0 +1,123 @@
+
+.choose{
+    margin-top: 8rem;
+    background:linear-gradient(rgba(110, 174, 187, 0.2) 
+    8%,rgba(44, 108, 119, 0.514)98%);
+height: auto;
+}
+
+
+
+.chtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 1rem;
+    flex-direction: column;
+}
+.chtitle>span:nth-child(1){
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+       color: rgb(255, 170, 0);
+    
+}
+.chtitle>span:nth-child(2){
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    
+}
+.ch_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    margin: 0 15rem;
+    flex-wrap:wrap ;
+
+
+
+    
+}
+.ch_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2.9rem;
+    
+
+}
+.ch_details>strong{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.ch_details> p{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+
+.falogo{
+    font-size: 3rem;
+    background-color: rgb(255, 170, 0);
+    border-radius: 50%;
+    padding: 1rem ;
+    display: flex;
+}
+
+@media only screen and (max-width:1200px ) {
+    .ch_info{
+        margin:0 5rem;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .chtitle>span:nth-child(1){
+        font-size: 3.5rem;
+    }
+    .chtitle>span:nth-child(2){
+        font-size: 2.5rem;
+    }
+.ch_info{
+    margin:0 5rem;
+}
+    .ch_details{
+        width: 30vw;
+       
+        
+    }
+}
+@media only screen and (max-width:715px){
+    .chtitle>span:nth-child(1){
+        font-size: 2.5rem;
+    }
+    .chtitle>span:nth-child(2){
+        font-size: 1.5rem;
+    }
+.ch_info{
+    margin:0;
+    gap: 0.2rem;
+}
+    .ch_details{
+        width: 50vw;
+       
+        
+    }
+    .ch_details>strong{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
