@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/myweb/static/css/main.5e8f13e2.css",
+    "main.js": "/myweb/static/js/main.d395441d.js",
+    "static/js/787.71e672d5.chunk.js": "/myweb/static/js/787.71e672d5.chunk.js",
+    "static/media/meh1.jpg": "/myweb/static/media/meh1.1fd617f8231d37ee4095.jpg",
+    "static/media/devi.jpg": "/myweb/static/media/devi.224ff93e27de7cd1d512.jpg",
+    "static/media/ma.png": "/myweb/static/media/ma.d7a47b16a826f579ea59.png",
+    "static/media/header.jpg": "/myweb/static/media/header.d42db6fc08c16b584ba0.jpg",
+    "static/media/md.jpg": "/myweb/static/media/md.e054377c573a1bb68371.jpg",
+    "static/media/booknow.jpg": "/myweb/static/media/booknow.0b97f74a2c7179d35dc6.jpg",
+    "static/media/meh.jpg": "/myweb/static/media/meh.f69925588cf3943ccb7f.jpg",
+    "static/media/about.jpg": "/myweb/static/media/about.7a8c5cf42368fac0e520.jpg",
+    "static/media/js.jpg": "/myweb/static/media/js.2b293c700b3bb90662a7.jpg",
+    "static/media/ub1.jpg": "/myweb/static/media/ub1.65d4eea86c1696043656.jpg",
+    "static/media/gg1.jpg": "/myweb/static/media/gg1.e9fed3593806b590ed2a.jpg",
+    "static/media/js1.jpg": "/myweb/static/media/js1.511d7f6e80e58231bcb0.jpg",
+    "static/media/crysta.ico": "/myweb/static/media/crysta.e19f10bc889122379fc4.ico",
+    "static/media/etios.ico": "/myweb/static/media/etios.cd45233fa111b7ffa0de.ico",
+    "static/media/suzuki.ico": "/myweb/static/media/suzuki.b3886d4f18b3a4b44a9e.ico",
+    "static/media/tempotrav.ico": "/myweb/static/media/tempotrav.3937d83f8f067d02c493.ico",
+    "static/media/toverp.ico": "/myweb/static/media/toverp.a109a0e7a278f5664d0a.ico",
+    "static/media/toy.ico": "/myweb/static/media/toy.a624301b18fbe8efd069.ico",
+    "static/media/md1.jpg": "/myweb/static/media/md1.141fed7a42642cdec1e7.jpg",
+    "static/media/tour.jpg": "/myweb/static/media/tour.141fed7a42642cdec1e7.jpg",
+    "static/media/kl.jpg": "/myweb/static/media/kl.1655b6defb3332cc754b.jpg",
+    "static/media/kl1.jpg": "/myweb/static/media/kl1.2fee818be2c9ef9aafb0.jpg",
+    "static/media/services.jpg": "/myweb/static/media/services.df3578647d8d547ce9c0.jpg",
+    "static/media/ub.jpg": "/myweb/static/media/ub.df3578647d8d547ce9c0.jpg",
+    "index.html": "/myweb/index.html",
+    "main.5e8f13e2.css.map": "/myweb/static/css/main.5e8f13e2.css.map",
+    "main.d395441d.js.map": "/myweb/static/js/main.d395441d.js.map",
+    "787.71e672d5.chunk.js.map": "/myweb/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e8f13e2.css",
+    "static/js/main.d395441d.js"
+  ]
+}
