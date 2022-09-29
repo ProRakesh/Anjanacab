@@ -32,6 +32,7 @@ const Home = (props) => {
 
   return (
     <>
+   
       <div className="header">
         <div className="title">
           <span>Welcome to Anjanacab!</span>

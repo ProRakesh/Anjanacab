@@ -11,9 +11,8 @@ function App() {
 
 
 
-
-
-      <Navbar />
+<Navbar/>
+     
 
 
     </>

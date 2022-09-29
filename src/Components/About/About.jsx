@@ -3,9 +3,11 @@ import './About.css'
 import WhyChooseus from '../WhyChooseus/WhyChooseus'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
 const About = () => {
   return (
     <>
+   
     <div className="aboutheader">
 
 <span>About Us</span>
